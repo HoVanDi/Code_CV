@@ -1,23 +1,346 @@
+html{
+  position: relative;
+  background-color: aquamarine;
+}
+
 .content {
   display: flex;
   justify-content: space-between;
-  margin: 240px 315px 0;
+  margin: 200px 220px 0;
+
 }
 
 .LeftContent {
-  background-color: aquamarine;
+  height: 724px;
+  width: 400px;
+  background: #FFFFFF;
+  border-radius: 20px;
   position: relative;
-  height: 200px;
-  width: 200px;
 }
 
-.image {
+.image{
+  display: flex;
+  margin: auto;
+  position: absolute;
   background-color: #e5e5e5;
+  width: 154px;
+  height: 144px;
+  border-radius: 20px;
+  left: 22%;
+  top: -28%;
+  bottom: 71.9%;
+  right: 20%;
+}
+
+
+
+.Contract_Name{
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 560;
+  font-size: 1.5rem;
+  line-height: 34px;
+  text-align: center;
+  position: absolute;
+  color: #000000;
+  top: 12%;
+  left: 22%;
+    right: 20.75%;
+}
+
+.Contract_Job{
+  display: flex;
+  font-family: 'Poppins';
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: -2px 26px;
+  gap: 10px;
+  position: absolute;
+  font-weight: 500;
+  left: 30%;
+  right: 30%;
+  top: 18.18%;
+  bottom: 77.84%;
+  background: #F3F6F7;
+  border-radius: 8px;
+}
+
+
+.Contract_Rectangle{
+  display: flex;
+  position: relative;
+  height: 40px;
+  width: 200px;
+  /* background: #6b8f9a; */
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 178px;
+  justify-content: space-around;
+ 
+}
+
+
+.Rectangle_social{
+  position: absolute; 
+  display: contents;
+}
+.fb{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+
+.style_icons{
+  width :18px;
+  background: #F3F6F7;
+  padding: 0px 10px;
+  border-radius: 8px;
+}
+
+.style_icons:hover{
+  cursor: pointer;
+}
+
+
+.instagram_icons{
+  fill:  #F3673A; 
+}
+
+.linkedin_icons{
+  fill: #144679;
+}
+
+.fb_icons{
+  fill:  #1773EA;
+}
+
+.twitter_icons{
+  fill: #1C9CEA;
+}
+
+
+.Contract_cart{
+  position: absolute;
+  background: #F3F6F6;
+  border-radius: 16px;
+  left: 7.5%;
+  right: 7.5%;
+  top: 34.7%;
+  bottom: 12.64%;
+}
+
+.Contract_cart{
+cursor: pointer;
+}
+
+
+.Contract_cart.Contract_cartContent{
+  position: absolute;
+  display: flex;
+  width: 84%;
+  margin-top: -117px;
+  height: 20%;
+  justify-content: space-around;
+  margin-left: -22px;
+align-items: center;
+
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+.IconContent{
+  
+  left: 7%;
+  right: 73%;
+  padding: 10px 10px 6px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  position: absolute;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3)
+}
+
+.IconContent i{
+  position: absolute;
+  left: 18.75%;
+  right: 77.75%;
+  top: 55.5%;
+  bottom: 41.92%;
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.Describe{
+  position: absolute;
+  color: #44566C;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 34px;
+}
+.phone_icons{
+  fill: #E93B81;
+}
+.phoneNumber{
+  color: #000000;
+}
+
+.btn_download{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 30px;
+  gap: 10px;
+  background: linear-gradient(93.74deg, #FA5252 0%, #DD2476 100%);
+  position: absolute;
+  left: 23%;
+  right: 23.25%;
+  top: 88.88%;
+  bottom: 3.68%;
+  border-radius: 10px;
+}
+
+.btn_download:hover{
+  cursor: pointer;
+}
+
+.download_icon{
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 30px;
+  top: 15px;
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.icondownload{
+  fill: #FFFFFF;
+}
+
+.download{
+  position: absolute;
+  width: 123px;
+  height: 27px;
+  left: 62px;
+  top: 14px;
+  font-family: 'Poppins'; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
 }
 
 .RightContent {
-  background-color: black;
+
+ width: 850px;
+ height: 1678px;
+ margin-left: 20px;
+ border-radius: 20px;
+ position: relative;
+}
+
+.menu{
   position: absolute;
-  width: 850px;
-  height: 1678px;
+  /* background-color: #DD2476; */
+  background: #FFFFFF;
+  left: 17%;
+  right: 0%;
+  top: 0%;
+  bottom: 91%;
+  border-radius: 16px;
+  }
+
+.iconMenu{
+  position: absolute;
+  left: 5.36%;
+  right: 79.64%;
+  top: 20.83%;
+  bottom: 20.83%;
+  background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%);
+  border-radius: 12px;
+}
+
+.iconMenu_icon{
+  position: absolute;
+  left: 31.54%;
+  right: 37%;
+  top: 17.64%;
+  bottom: 50%;
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
+
+
+}
+
+.iconMenu_contnet{
+  position: absolute;
+  left: 22.29%;
+  right: 82.57%;
+  top: 60.86%;
+  bottom: 31.25%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.iconMenu1{
+  position: absolute;
+  left: 23.93%;
+  right: 61.07%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #F3F6F6;
+  border-radius: 12px;
+}
+
+.iconMenu2{
+  position: absolute;
+  left: 42.5%;
+  right: 42.5%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #F3F6F6;
+  border-radius: 12px;
+}
+
+.iconMenu3{
+  position: absolute;
+left: 61.07%;
+right: 23.93%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #F3F6F6;
+border-radius: 12px;
+}
+
+.iconMenu4{
+  position: absolute;
+left: 79.64%;
+right: 5.36%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #F3F6F6;
+border-radius: 12px;
 }
